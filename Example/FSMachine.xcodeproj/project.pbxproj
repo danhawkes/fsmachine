@@ -14,6 +14,7 @@
 		376980BD1982F76000F0D735 /* FSMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 376980B41982F76000F0D735 /* FSMachine.m */; };
 		376980BE1982F76000F0D735 /* FSMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 376980B61982F76000F0D735 /* FSMachineBuilder.m */; };
 		376980BF1982F76000F0D735 /* FSState.m in Sources */ = {isa = PBXBuildFile; fileRef = 376980B81982F76000F0D735 /* FSState.m */; };
+		376980C21982F8F400F0D735 /* Examples.m in Sources */ = {isa = PBXBuildFile; fileRef = 376980C11982F8F400F0D735 /* Examples.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 		376980B61982F76000F0D735 /* FSMachineBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSMachineBuilder.m; path = ../Pod/Classes/FSMachineBuilder.m; sourceTree = "<group>"; };
 		376980B71982F76000F0D735 /* FSState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSState.h; path = ../Pod/Classes/FSState.h; sourceTree = "<group>"; };
 		376980B81982F76000F0D735 /* FSState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSState.m; path = ../Pod/Classes/FSState.m; sourceTree = "<group>"; };
+		376980C11982F8F400F0D735 /* Examples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Examples.m; sourceTree = "<group>"; };
 		53A230A7D3E74C14A0FDEA17 /* Pods-FSMachine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSMachine.xcconfig"; path = "Pods/Pods-FSMachine.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FSMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
+				376980C11982F8F400F0D735 /* Examples.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376980BD1982F76000F0D735 /* FSMachine.m in Sources */,
+				376980C21982F8F400F0D735 /* Examples.m in Sources */,
 				376980BB1982F76000F0D735 /* FSExceptions.m in Sources */,
 				376980BE1982F76000F0D735 /* FSMachineBuilder.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
