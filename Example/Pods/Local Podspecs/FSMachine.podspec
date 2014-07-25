@@ -1,36 +1,24 @@
-#
-# Be sure to run `pod lib lint FSMachine.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "FSMachine"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of FSMachine."
+  s.version          = "1.0.0"
+  s.summary          = "A straightforward state machine."
   s.description      = <<-DESC
-                       An optional longer description of FSMachine
+                       A straightforward state machine implementation in Obj-C.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Features:
+
+                       * Support for Moore and Mealy-style machines
+                       * Actions on state enter/exit, and during transitions
+                       * Conditional transitions
+                       * Up-front machine validation
+                       * Configurable logging
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FSMachine"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "danhawkes" => "dan@danhawkes.co.uk" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FSMachine.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = "https://github.com/danhawkes/FSMachine"
+  s.license          = 'Apache 2.0'
+  s.author           = { "danhawkes" => "dan@arcs.co" }
+  s.source           = { :git => "https://github.com/danhawkes/FSMachine.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
