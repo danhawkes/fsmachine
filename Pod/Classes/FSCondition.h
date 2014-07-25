@@ -1,0 +1,1 @@
+typedef BOOL (^FSConditionBlock)(void);
