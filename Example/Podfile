@@ -1,0 +1,6 @@
+
+target 'FSMachine', :exclusive => true do
+  pod "FSMachine", :path => "../"
+
+  pod 'Kiwi'
+end

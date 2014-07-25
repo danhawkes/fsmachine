@@ -1,0 +1,17 @@
+PODS:
+  - FSMachine (0.1.0)
+  - Kiwi (2.3.0)
+
+DEPENDENCIES:
+  - FSMachine (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  FSMachine:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FSMachine: 3df80b629bae05c8dab53d78401d0dfe2104d328
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+
+COCOAPODS: 0.33.1
