@@ -3,3 +3,4 @@
 language: objective-c
 script:
 - xctool test -workspace Example/FSMachine.xcworkspace -scheme FSMachine -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
